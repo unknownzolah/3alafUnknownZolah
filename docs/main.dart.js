@@ -57786,9 +57786,13 @@ s=B.c.m(n*0.4)
 q=B.c.m(l*0.4)
 p=h.a
 if(p!=null)p.co(r,g,s,m,q,k);++r}++g}return new Uint8Array(A.aM(new A.Ze(B.LY,6).a_T(h,!1)))},
-a_K(){var s=this.e
-if(s!=null){s=(self.URL||self.webkitURL).createObjectURL(A.amQ([s]))
-s.toString;(self.URL||self.webkitURL).revokeObjectURL(s)}},
+a_K(){var s,r=this.e
+if(r!=null){r=(self.URL||self.webkitURL).createObjectURL(A.amQ([r]))
+r.toString
+s=document.createElement("a")
+s.href=r
+s.setAttribute("download","green_profile.png")
+s.click();(self.URL||self.webkitURL).revokeObjectURL(r)}},
 a_(a){var s=this,r=null,q=A.aY(255,64,118,80),p=A.a([],t.af),o=s.e
 if(o!=null)p.push(new A.tP(A.aqV(r,r,new A.k8(o,1)),200,200,r))
 else p.push(B.S9)
